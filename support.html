@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Roadwork</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Outfit',sans-serif;background:#0A0A0A;color:#fff;line-height:1.8;-webkit-font-smoothing:antialiased}
+a{color:#F1C40F;text-decoration:none}a:hover{text-decoration:underline}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,10,10,0.9);backdrop-filter:blur(20px);padding:0 40px;height:72px;display:flex;align-items:center;border-bottom:1px solid rgba(255,255,255,0.05)}
+.nav-logo{font-size:22px;font-weight:800}.nav-logo span{color:#F1C40F}
+.content{max-width:760px;margin:0 auto;padding:120px 24px 80px}
+h1{font-size:40px;font-weight:800;margin-bottom:8px;letter-spacing:-1px}
+.subtitle{font-size:18px;color:#888;margin-bottom:56px;font-weight:300}
+.faq-item{border-bottom:1px solid rgba(255,255,255,0.06);padding:24px 0}
+.faq-q{font-size:17px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center;transition:color 0.2s}
+.faq-q:hover{color:#F1C40F}
+.faq-q .icon{font-size:20px;color:#444;transition:transform 0.3s,color 0.2s;flex-shrink:0;margin-left:16px}
+.faq-item.open .faq-q .icon{transform:rotate(45deg);color:#F1C40F}
+.faq-a{max-height:0;overflow:hidden;transition:max-height 0.4s ease,padding 0.3s ease;padding:0}
+.faq-item.open .faq-a{max-height:300px;padding:16px 0 0}
+.faq-a p{font-size:15px;color:#AAA;font-weight:300;line-height:1.7}
+.contact-section{margin-top:64px;background:#111;border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:40px 32px;text-align:center}
+.contact-section h2{font-size:24px;font-weight:700;margin-bottom:8px}
+.contact-section p{font-size:15px;color:#888;margin-bottom:24px;font-weight:300}
+.contact-btn{display:inline-block;background:#F1C40F;color:#000;padding:14px 32px;border-radius:10px;font-weight:700;font-size:15px;transition:all 0.2s}
+.contact-btn:hover{background:#C9A60C;transform:translateY(-2px);text-decoration:none}
+footer{border-top:1px solid rgba(255,255,255,0.06);padding:40px 24px;text-align:center;font-size:13px;color:#444}
+</style>
+</head>
+<body>
+<nav><a href="index.html" class="nav-logo">Road<span>work</span></a></nav>
+<div class="content">
+<h1>Support</h1>
+<p class="subtitle">Find answers to common questions or get in touch with our team.</p>
+
+<div class="faq-item">
+  <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+    How do I cancel my subscription?
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-a"><p>You can cancel your Premium subscription at any time through your device's app store. On iPhone: Settings → Apple ID → Subscriptions → Roadwork → Cancel. On Android: Google Play Store → Menu → Subscriptions → Roadwork → Cancel. Your Premium access continues until the end of the current billing period.</p></div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+    Can I switch combat disciplines?
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-a"><p>Yes. Go to Settings → More → Switch Discipline. Please note that switching disciplines will reset your training data (workout logs, combinations, and streaks) for efficiency. Your gym, cardio, diet, and calendar data are not affected.</p></div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+    How does the AI coach work?
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-a"><p>The AI coach is powered by advanced artificial intelligence. It can answer your questions about training, technique, diet, and recovery. It also generates personalised training plans based on your profile, provides feedback after each workout session, and can analyse food photos to estimate nutritional content. The AI coach is a Premium feature.</p></div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+    Is my data private?
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-a"><p>Yes. Your personal data is stored securely on encrypted servers in the European Union. We never sell your data to third parties. You can view our full <a href="privacy.html">Privacy Policy</a> for complete details on how we handle your information. You can also delete your account and all associated data at any time from the app settings.</p></div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+    How do I delete my account?
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-a"><p>Go to Settings → More → Delete Account. You'll be asked to confirm twice. Once confirmed, all your personal data, workout history, diet logs, and account information will be permanently deleted within 30 days. If you have an active subscription, make sure to cancel it through your app store first.</p></div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+    What devices are supported?
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-a"><p>Roadwork is available on iPhone (iOS 15 and later) and Android (Android 8.0 and later). The app works best on phones. Tablet support is available but optimised for phone-sized screens. GPS features (run tracking) require a device with GPS capability.</p></div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+    Can I use Roadwork offline?
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-a"><p>Some features work offline: the round timer, viewing previously loaded workouts, and the active workout player. However, features that require server access — such as logging workouts, the AI coach, diet tracking, and syncing data — require an internet connection. Any data logged while offline will sync automatically when you reconnect.</p></div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+    Can I listen to music while training?
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-a"><p>Yes. Roadwork is designed to work alongside your music app. Start your music in Spotify, Apple Music, or any other music app, then open Roadwork and begin your workout. The music will continue playing in the background. Timer sounds and workout audio cues will play over your music.</p></div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+    What's included in the free version?
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-a"><p>Free users get 5 introductory workouts per combat discipline, full access to the round timer with all presets and customisation, and basic cardio tracking. Premium unlocks all 800+ workouts, AI coaching, diet tracking, smart calendar, custom workouts, and removes all advertisements.</p></div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+    How accurate is the AI food analysis?
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-a"><p>The AI food analysis provides estimates of calories and macronutrients based on visual recognition. While generally accurate for common foods, the estimates may vary. We recommend reviewing and adjusting the AI's suggestions before saving. For precise nutritional tracking, manual entry with verified nutritional data is recommended.</p></div>
+</div>
+
+<div class="contact-section">
+  <h2>Still need help?</h2>
+  <p>Our support team typically responds within 24 hours.</p>
+  <a href="mailto:support@getroadwork.com" class="contact-btn">Email Support</a>
+</div>
+</div>
+<footer>&copy; 2026 Roadwork by AW Consumer Group. All rights reserved.</footer>
+</body>
+</html>
